@@ -162,6 +162,11 @@ a:not([href]):not([tabindex]) {
   width: 400px;
 }
 
+.language-flag{
+  width: 40px;
+  cursor: pointer;
+}
+
 .awake > .container > .navbar-brand > img {
  background: #000; 
 }
