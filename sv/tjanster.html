@@ -87,7 +87,10 @@
               <a id="modalLink3">Släckglödgning</a>
             </li>
             <li>
-              <a id="modalLink4">Väteglödgning</a>
+              <a id="modalLink4">Mjukglödgning</a>
+            </li>
+            <li>
+              <a id="modalLink9">Väteglödgning</a>
             </li>
             <li>
               <a id="modalLink5">Normalisering</a>
@@ -100,6 +103,9 @@
             </li>
             <li>
               <a id="modalLink8">Etappglödgning</a>
+            </li>
+            <li>
+              <a id="modalLink10">Värmebehandling i skyddsgas</a>
             </li>
           </p>
         </div>
@@ -267,6 +273,18 @@
       openModal();
       modaltitle.innerHTML = "Etappglödgning";
       modaltext.innerHTML = "Denna värmebehandlings typ är kan man säga som seghärdning fast med luft som kylmedia. Denna typ görs för att få en viss struktur på stålet. För att lättare kunna bearbeta det. Brukar också benämnas BG-glödgning.";
+    }
+
+    modalLink9.onclick = function () {
+      openModal();
+      modaltitle.innerHTML = "Väteglödgning";
+      modaltext.innerHTML = "Väteglödgning är en värmebehandlingsprocess som sänker stålets vätehalt vilket minskar risken för sprickbildning.";
+    }
+
+    modalLink10.onclick = function () {
+      openModal();
+      modaltitle.innerHTML = "Värmebehandling i skyddsgas";
+      modaltext.innerHTML = "Värmebehandling i skyddsgas";
     }
 
     // When the user clicks on <span> (x), close the modal
